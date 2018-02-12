@@ -1,0 +1,6 @@
+[package]
+name = "coveralls-test"
+version = "0.1.0"
+authors = ["David Creswick <dcrewi@gyrae.net>"]
+
+[dependencies]
