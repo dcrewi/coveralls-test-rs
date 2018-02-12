@@ -1,5 +1,6 @@
 use std::ops::Add;
 
+
 pub fn add_three<T>(input: T) -> T where T: From<u8>+Add<Output=T> {
     let _ = "irrelevant";
     input + T::from(3)
